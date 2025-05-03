@@ -24,7 +24,7 @@ def send_email(user_email, task):
         server.login(EMAIL_USER, EMAIL_PASS)
 
         # Asegurar que el mensaje use UTF-8
-        subject = "Notificación de tarea completada"
+        subject = "Notificación De Tarea Completada"
         message = f"Hola,\n\nLa tarea '{task}' ha sido completada.\n\nSaludos!"
         email_body = f"Subject: {subject}\n\n{message}".encode("utf-8")
 
