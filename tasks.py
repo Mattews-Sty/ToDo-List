@@ -1,8 +1,8 @@
 from Smtp import send_email
 import os
 
-# Lista de tareas
-tasks = []
+# # Lista de tareas
+# tasks = []
 
 def add_task(task):
     """Agrega una tarea a la lista."""
